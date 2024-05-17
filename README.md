@@ -45,24 +45,48 @@ Options:
 ### Flags
 
 `-b`: Load the Base Config.
+
 ![Base Config](https://github.com/XEHIL/vscmgr/blob/main/images/base.jpg "Base Config")
+
+---
+
 `-i`: List and install extensions from .ext files in the profiles folder.
+
 ![Install Config](https://github.com/XEHIL/vscmgr/blob/main/images/install.jpg "Install Config")
-![Installed](https://github.com/XEHIL/vscmgr/blob/main/images/installed.jpg "Installed")
+
+---
+
 `-d`: List and delete extensions from .ext files in the profiles folder.
+
 ![Delete Config](https://github.com/XEHIL/vscmgr/blob/main/images/delete.jpg "Delete Config")
-![Deleted](https://github.com/XEHIL/vscmgr/blob/main/images/deleted.jpg "Deleted")
+
+---
+
 `-l`: List installed extensions.
+
 ![List Config](https://github.com/XEHIL/vscmgr/blob/main/images/list.jpg "List Config")
+
+---
+
 `-u`: Update installed extensions.
+
 ![Update](https://github.com/XEHIL/vscmgr/blob/main/images/update.jpg "Update Config")
+
+---
+
 `-x`: Delete all extensions from VS Code.
+
 ![Delete All](https://github.com/XEHIL/vscmgr/blob/main/images/delete_all.jpg "Delete All")
 
 ----
 **What is a .ext File?**
 It is a file containing a list of VS Code Extension IDs.
+
 ![Python .ext File](https://github.com/XEHIL/vscmgr/blob/main/images/extfile.jpg "Python .ext File")
+
+[Example of Python .ext File](vscode_configs/profiles/python.ext)
+
+[Example of React .ext File](vscode_configs/profiles/react.ext)
 
 ---
 **What is? `IGNORE_SETTINGS_KEYBINDINGS`**
