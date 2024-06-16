@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 IGNORE_SETTINGS_KEYBINDINGS=1 #1 will ignore copying the keybindings.json and settings.json file / 0 will copy/symlink the keybindings.json and settings.json file
 CREATE_SYMLINKS=0 #1 for SYMLINKS / 0 for COPYING
